@@ -1,7 +1,9 @@
+import Paper from '@mui/material/Paper';
+
 export default function Summary({ current }) {
   return (
     <div className="absolute z-10 inset-x-0 bottom-2 flex justify-center align-center">
-      <div className="bg-slate-100 min-w-96 shadow-md rounded p-2">
+      <Paper className="min-w-96 p-2" elevation={8}>
         {/* Perhaps 1 and 2 are visible when CO2 emissions are toggled on the map 
         and 3 and 4 are visible when electricity usage is toggled on the map. */}
         {current == "carbon" ? (
@@ -15,7 +17,7 @@ export default function Summary({ current }) {
             <p>Total electricity usage year to date</p>
           </>
         )}
-      </div>
+      </Paper>
     </div>
   );
 }

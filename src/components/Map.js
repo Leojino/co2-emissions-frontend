@@ -1,5 +1,5 @@
-import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import React, { useEffect } from 'react'
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 const containerStyle = {
   width: '100%',
@@ -11,7 +11,7 @@ const center = {
   lng: -79.5715815
 };
 
-function Map() {
+function Map({data}) {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "AIzaSyB0hz1RmWYsOPfCGZKRemdXvs2E-umR_sU"
@@ -19,9 +19,20 @@ function Map() {
 
   const [map, setMap] = React.useState(null)
 
+  useEffect(() => {
+    if(!map) return 
+    new window.google.maps.Geocoder().geocode( { 'address': data[0].locations}, function(results, status) {
+      if (status == 'OK') {
+       console.log(results[0].geometry.location.lat())
+      } else {
+        alert('Geocode was not successful for the following reason: ' + status);
+      }
+    });
+  }, [map])
+
   const onLoad = React.useCallback(function callback(map) {
     // const bounds = new window.google.maps.LatLngBounds();
-    console.log(map)
+    // console.log(map)
     // map.fitBounds(bounds);
     setMap(map)
   }, [])
@@ -40,7 +51,9 @@ function Map() {
         onUnmount={onUnmount}
       >
         { /* Child components, such as markers, info windows, etc. */ }
-        <></>
+        {/* <> */}
+          <Marker position={center} onClick={ e => console.log(e)} />
+        {/* </> */}
       </GoogleMap>
   ) : <div className='absolute inset-0 bg-orange-600'></div>
 }
