@@ -11,7 +11,7 @@ import Co2Icon from "@mui/icons-material/Co2";
 import BoltIcon from "@mui/icons-material/Bolt";
 
 export default function MapFilter({ current, onFilterChange }) {
-  const [age, setAge] = useState('');
+  const [age, setAge] = useState(10);
 
   const handleChange = (event) => {
     setAge(event.target.value);
@@ -21,10 +21,10 @@ export default function MapFilter({ current, onFilterChange }) {
       <Grid container>
         <Grid item xs={9}>
           <FormControl >
-            <InputLabel id="demo-simple-select-label">Date</InputLabel>
+            <InputLabel id="date-range-select-label">Date</InputLabel>
             <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
+              labelId="date-range-select-label"
+              id="date-range-select"
               value={age}
               label="Age"
               onChange={handleChange}
@@ -37,7 +37,7 @@ export default function MapFilter({ current, onFilterChange }) {
           </FormControl>
         </Grid>
         <Grid item container justifyContent="flex-end" xs={3}>
-          <ToggleButtonGroup color="success" value={current} exclusive onChange={onFilterChange} aria-label="Platform" size="small">
+          <ToggleButtonGroup color="success" value={current} exclusive onChange={onFilterChange} aria-label="emission" size="small">
             <ToggleButton value="carbon"><Co2Icon/></ToggleButton>
             <ToggleButton value="electricity"><BoltIcon/></ToggleButton>
           </ToggleButtonGroup>

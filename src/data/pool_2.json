@@ -1,0 +1,1132 @@
+[
+  {
+    "pool_name": "F2pool",
+    "stratum_address": "stratum+tcp://btc.f2pool.com",
+    "ip_address": "172.65.217.174",
+    "locations": "United States of America, California, San Fransisco",
+    "ISP": "CloudFlare Inc",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://btc-mow.f2pool.com",
+    "ip_address": "162.62.3.225",
+    "locations": "Russian Federation,Moskva,Moscow",
+    "ISP": "Aceville Pte.Ltd.",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 55.75222, "lng": 37.615559 }
+  },
+  {
+    "pool_name": "Antpool",
+    "stratum_address": "stratum.antpool.com",
+    "ip_address": "172.65.230.171",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "172.65.209.66",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "172.65.220.229",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "Poolin",
+    "stratum_address": "stratum+tcp://btc.ss.poolin.one",
+    "ip_address": "172.65.239.111",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.123.119.187",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.122.145.7",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "172.65.223.207",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "binance",
+    "stratum_address": "stratum+tcp://sha256.poolbinance.com",
+    "ip_address": "172.65.217.190",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://bs.poolbinance.com",
+    "ip_address": "172.65.231.147",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "47.241.122.122",
+    "locations": "Singapore",
+    "ISP": "Alibaba.com LLC",
+    "carbon_emissions_factors": 0.408,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 1.28967, "lng": 103.850067 }
+  },
+  {
+    "pool_name": "viabtc",
+    "stratum_address": "stratum+tcp://btc.viabtc.io",
+    "ip_address": "172.65.24.253",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "Slush Pool",
+    "stratum_address": "stratum+tcp://stratum.slushpool.com",
+    "ip_address": "178.62.197.156",
+    "locations": "Netherlands,Noord-Holland,Amsterdam",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.45172,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 52.378502, "lng": 4.89998 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "46.101.135.245",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "45.55.43.129",
+    "locations": "United States of America,New Jersey,Clifton",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.858429, "lng": -74.163757 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "206.189.235.207",
+    "locations": "United States of America, New Jersey, North Bergen",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.804272, "lng": -74.012077 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "46.101.135.192",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "204.48.28.116",
+    "locations": "United States of America, New Jersey, North Bergen",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.804272, "lng": -74.012077 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "18.197.142.87",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "188.166.48.205",
+    "locations": "Netherlands,Noord-Holland,Amsterdam",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.45172,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 52.378502, "lng": 4.89998 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "52.58.211.215",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.93.149.21",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Data Services NoVa",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.120.132.95",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "34.229.242.134",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "45.55.41.36",
+    "locations": "United States of America,New Jersey,Clifton",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.858429, "lng": -74.163757 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "54.89.191.69",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": 39.039474 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.83.69.172",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Data Services NoVa",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "52.28.62.245",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "18.184.174.79",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://eu.stratum.slushpool.com",
+    "ip_address": "46.101.236.153",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "188.166.16.158",
+    "locations": "Netherlands,Noord-Holland,Amsterdam",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.45172,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 52.378502, "lng": 4.89998 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "46.101.145.131",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "18.184.127.10",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "128.199.55.158",
+    "locations": "Netherlands,Noord-Holland,Amsterdam",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.45172,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 52.378502, "lng": 4.89998 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.68.113.29",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "18.184.182.16",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://us-east.stratum.slushpool.com",
+    "ip_address": "64.225.62.255",
+    "locations": "United States of America,New Jersey,Clifton",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.858429, "lng": -74.163757 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.88.235.65",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Data Services NoVa",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "142.93.51.122",
+    "locations": "United States of America,New Jersey,North Bergen",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.804272, "lng": -74.012077 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "54.90.75.213",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Data Services NoVa",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "142.93.51.135",
+    "locations": "United States of America,New Jersey,North Bergen",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.804272, "lng": -74.012077 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "165.22.41.73",
+    "locations": "United States of America,New Jersey,Clifton",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.2233,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 40.858429, "lng": -74.163757 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.84.144.138",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Data Services NoVa",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "184.72.197.173",
+    "locations": "United States of America,Virginia,Ashburn",
+    "ISP": "Amazon Data Services NoVa",
+    "carbon_emissions_factors": 0.2925,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://br.stratum.slushpool.com",
+    "ip_address": "18.230.45.148",
+    "locations": "Brazil,Sao Paulo,Sao Paulo",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.0617,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.039474, "lng": -77.491806 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://ca.stratum.slushpool.com",
+    "ip_address": "99.79.195.99",
+    "locations": "Canada,Quebec,Montreal",
+    "ISP": "Amazon.com Inc.",
+    "carbon_emissions_factors": 0.0012,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.508839, "lng": -73.587807 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "167.99.180.109",
+    "locations": "Canada,Ontario,Toronto",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.03,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 43.65345, "lng": -79.384018 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "15.223.66.255",
+    "locations": "Canada,Quebec,Montreal",
+    "ISP": "Amazon Data Services Canada",
+    "carbon_emissions_factors": 0.0012,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.508839, "lng": -73.587807 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "167.99.186.215",
+    "locations": "Canada,Ontario,Toronto",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.03,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.508839, "lng": -73.587807 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "167.99.184.249",
+    "locations": "Canada,Ontario,Toronto",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.03,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 43.65345, "lng": -79.384018 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "15.222.246.123",
+    "locations": "Canada,Quebec,Montreal",
+    "ISP": "Amazon Data Services Canada",
+    "carbon_emissions_factors": 0.0012,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.508839, "lng": -73.587807 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "167.99.188.242",
+    "locations": "Canada,Ontario,Toronto",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.03,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 43.65345, "lng": -79.384018 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "35.183.104.72",
+    "locations": "Canada,Quebec,Montreal",
+    "ISP": "Amazon Data Services Canada",
+    "carbon_emissions_factors": 0.0012,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.508839, "lng": -73.587807 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://sg.stratum.slushpool.com",
+    "ip_address": "178.128.223.211",
+    "locations": "Singapore",
+    "ISP": "DigitalOcean LLC",
+    "carbon_emissions_factors": 0.408,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 1.28967, "lng": 103.850067 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.0.148.67",
+    "locations": "Singapore",
+    "ISP": "Amazon Data Services Singapore",
+    "carbon_emissions_factors": 0.408,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 1.28967, "lng": 103.850067 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://jp.stratum.slushpool.com",
+    "ip_address": "54.92.80.66",
+    "locations": "Japan,Tokyo",
+    "ISP": "Amazon Data Services Japan",
+    "carbon_emissions_factors": 0.4658,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 35.689507, "lng": 139.691696 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "18.177.82.104",
+    "locations": "Japan,Tokyo",
+    "ISP": "Amazon Data Services Japan",
+    "carbon_emissions_factors": 0.4658,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 35.689507, "lng": 139.691696 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://ru-west.stratum.slushpool.com",
+    "ip_address": "91.237.249.92",
+    "locations": "Russian Federation,Moskva,Moscow",
+    "ISP": "LLC Server v arendy",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 55.75222, "lng": 37.615559 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "91.237.249.93",
+    "locations": "Russian Federation,Moskva,Moscow",
+    "ISP": "LLC Server v arendy",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 55.75222, "lng": 37.615559 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://kz.stratum.slushpool.com",
+    "ip_address": "91.215.139.194",
+    "locations": "Kazakhstan,Almaty",
+    "ISP": "PS Internet Company LLC",
+    "carbon_emissions_factors": "N/A",
+    "Sources": "",
+    "center": { "lat": 43.25, "lng": 76.949997 }
+  },
+  {
+    "pool_name": "Luxor",
+    "stratum_address": "stratum+tcp://btc.global.luxor.tech",
+    "ip_address": "34.117.46.215",
+    "locations": "United States of America,Missouri,Kansas City",
+    "ISP": "Google LLC",
+    "carbon_emissions_factors": 0.7341,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.099731, "lng": -94.578568 }
+  },
+  {
+    "pool_name": "Btc.com",
+    "stratum_address": "eu.ss.btc.com",
+    "ip_address": "172.65.252.207",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "us.ss.btc.com",
+    "ip_address": "172.65.222.110",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "sg.ss.btc.com",
+    "ip_address": "172.65.236.221",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "CloudFlare Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "Foundary USA",
+    "stratum_address": "stratum+tcp://btc.foundryusapool.com",
+    "ip_address": "52.14.211.27",
+    "locations": "United States of America.Ohio,Columbus",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.56848,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.961182, "lng": -82.998787 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "52.14.101.48",
+    "locations": "United States of America.Ohio,Columbus",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.56848,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.961182, "lng": -82.998787 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "3.17.89.175",
+    "locations": "United States of America.Ohio,Columbus",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.56848,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 39.961182, "lng": -82.998787 }
+  },
+  {
+    "pool_name": "SBI Crypto",
+    "stratum_address": "stratum+tcp://us1.sbicrypto.com",
+    "ip_address": "52.11.133.214",
+    "locations": "United States of America,Oregon,Portland",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.15495,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.523449, "lng": -122.676208 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "54.68.64.117",
+    "locations": "United States of America,Oregon,Portland",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.15495,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.523449, "lng": -122.676208 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "35.155.64.195",
+    "locations": "United States of America,Oregon,Portland",
+    "ISP": "Amazon.com Inc.",
+    "carbon_emissions_factors": 0.15495,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 45.523449, "lng": -122.676208 }
+  },
+  {
+    "pool_name": "EMCDPool",
+    "stratum_address": "gate.emcd.io(Russia)",
+    "ip_address": "95.143.184.197",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "5.188.78.230",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "5.188.78.229",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "95.143.184.198",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "eu.emcd.ioEurope)",
+    "ip_address": "49.12.219.118",
+    "locations": "Germany,Sachsen,Falkenstein",
+    "ISP": "Hetzner Online AG",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.4778, "lng": 12.3712 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "95.217.21.174",
+    "locations": "Finland,Uusimaa,Helsinki",
+    "ISP": "Hetzner Online GmbH",
+    "carbon_emissions_factors": 0.26818,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 60.169521, "lng": 24.93545 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "cn.emcd.io (China)",
+    "ip_address": "47.244.12.247",
+    "locations": "Hong Kong",
+    "ISP": "Alibaba.com LLC",
+    "carbon_emissions_factors": 0.65,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 22.285521, "lng": 114.157692 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "us.emcd.io(US)",
+    "ip_address": "45.77.208.112",
+    "locations": "United States of America,Washington,Seattle",
+    "ISP": "Vultr Holdings LLC",
+    "carbon_emissions_factors": 0.09674,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 47.6157, "lng": -122.344498 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "ir.emcd.io (Iran)",
+    "ip_address": "31.25.90.172",
+    "locations": "Iran,Tehran",
+    "ISP": "Saba Hour Yeganeh Co.",
+    "carbon_emissions_factors": 0.700153846,
+    "Sources": "IGES GRID",
+    "center": { "lat": 35.694389, "lng": 51.421509 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "kz.emcd.io (Kazakhstan)",
+    "ip_address": "185.22.64.106",
+    "locations": "Kazakhstan,Qaraghandy oblysy,Kazakhstan",
+    "ISP": "PS Internet Company LLC",
+    "carbon_emissions_factors": "N/A",
+    "Sources": "",
+    "center": { "lat": 48.51667, "lng": 66.76667 }
+  },
+  {
+    "pool_name": "OKExPool",
+    "stratum_address": "stratum+tcp://stratum.okpool.me",
+    "ip_address": "18.166.101.54",
+    "locations": "Hong Kong",
+    "ISP": "Amazon Technologies Inc.",
+    "carbon_emissions_factors": 0.65,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 22.285521, "lng": 114.157692 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "16.162.59.222",
+    "locations": "Hong Kong",
+    "ISP": "Amazon.com Inc.",
+    "carbon_emissions_factors": 0.65,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 22.285521, "lng": 114.157692 }
+  },
+  {
+    "pool_name": "Huobi.pool",
+    "stratum_address": "stratum+tcp://stratum.poolhb.com",
+    "ip_address": "8.209.96.72",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "M/A",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://bak.poolhb.com",
+    "ip_address": "8.140.109.167",
+    "locations": "China,Beijing",
+    "ISP": "Aliyun Computing Co. Ltd",
+    "carbon_emissions_factors": 0.982118481,
+    "Sources": "IGES GRID",
+    "center": { "lat": 39.907501, "lng": 116.397232 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://bn.huobipool.com",
+    "ip_address": "8.140.109.167",
+    "locations": "China,Beijing",
+    "ISP": "Aliyun Computing Co. Ltd",
+    "carbon_emissions_factors": 0.982118481,
+    "Sources": "IGES GRID",
+    "center": { "lat": 39.907501, "lng": 116.397232 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://bs.huobipool.com",
+    "ip_address": "47.108.51.58",
+    "locations": "China,Beijing",
+    "ISP": "Aliyun Computing Co. Ltd",
+    "carbon_emissions_factors": 0.982118481,
+    "Sources": "IGES GRID",
+    "center": { "lat": 30.66667, "lng": 104.066673 }
+  },
+  {
+    "pool_name": "Sigmapool.com",
+    "stratum_address": "stratum+tcp://us1.btc.sigmapool.com",
+    "ip_address": "18.159.229.232",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://us2.btc.sigmapool.com",
+    "ip_address": "18.159.229.232",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://cn1.btc.sigmapool.com",
+    "ip_address": "18.193.187.245",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://ru1.btc.sigmapool.com",
+    "ip_address": "185.10.187.163",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://ru2.btc.sigmapool.com",
+    "ip_address": "18.193.187.245",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://ru3.btc.sigmapool.com",
+    "ip_address": "185.10.187.163",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://eu1.btc.sigmapool.com",
+    "ip_address": "18.193.187.245",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://eu2.btc.sigmapool.com",
+    "ip_address": "185.10.187.163",
+    "locations": "Russian Federation,Sankt-Peterburg,Saint Petersburg",
+    "ISP": "OOO Network of Data-Centers Selectel",
+    "carbon_emissions_factors": 0.3102,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 59.89444, "lng": 30.26417 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "stratum+tcp://eu3.btc.sigmapool.com",
+    "ip_address": "18.193.187.245",
+    "locations": "Germany, Hessen, Frankfurt am Main",
+    "ISP": "A100 ROW GmbH",
+    "carbon_emissions_factors": 0.58883,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 50.110882, "lng": 8.681996 }
+  },
+  {
+    "pool_name": "1THash",
+    "stratum_address": "stratum.1thash.btc.top",
+    "ip_address": "47.94.177.41",
+    "locations": "China,Beijing",
+    "ISP": "Aliyun Computing Co. Ltd",
+    "carbon_emissions_factors": 0.982118481,
+    "Sources": "IGES GRID",
+    "center": { "lat": 39.907501, "lng": 116.397232 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "199.96.62.41",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Twitter Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "108.160.165.53",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Dropbox Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "199.16.156.11",
+    "locations": "United States of America,Georgia,Atlanta",
+    "ISP": "Twitter Inc.",
+    "carbon_emissions_factors": 0.32818,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 33.770844, "lng": -84.377632 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "162.125.32.10",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Dropbox Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "108.160.165.189",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Dropbox Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "208.101.60.87",
+    "locations": "United States of America,Texas,Dallas",
+    "ISP": "SoftLayer Technologies Inc.",
+    "carbon_emissions_factors": 0.38896,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 32.939491, "lng": -96.83873 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "98.159.108.57",
+    "locations": "United States of America,California,Los Angeles",
+    "ISP": "IDC Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 34.052986, "lng": -118.263687 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "157.240.2.50",
+    "locations": "United States of America,California,Menlo Park",
+    "ISP": "Facebook Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.436935, "lng": -122.193604 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "157.240.7.8",
+    "locations": "Singapore",
+    "ISP": "Facebook Inc.",
+    "carbon_emissions_factors": 0.408,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 1.28967, "lng": 103.850067 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "bak.1thash.btc.top",
+    "ip_address": "123.57.114.67",
+    "locations": "China,Beijing",
+    "ISP": "Aliyun Computing Co. Ltd",
+    "carbon_emissions_factors": 0.982118481,
+    "Sources": "IGES GRID",
+    "center": { "lat": 39.907501, "lng": 116.397232 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "31.13.87.19",
+    "locations": "Taiwan,Taipei",
+    "ISP": "Meta Platforms Ireland Limited",
+    "carbon_emissions_factors": "N/A",
+    "Sources": "",
+    "center": { "lat": 25.038328, "lng": 121.564362 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "184.72.1.148",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Amazon.com Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "104.244.43.6",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Twitter Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "162.125.2.3",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Dropbox Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "",
+    "stratum_address": "",
+    "ip_address": "108.160.167.156",
+    "locations": "United States of America,California,San Francisco",
+    "ISP": "Dropbox Inc.",
+    "carbon_emissions_factors": 0.20553,
+    "Sources": "Carbon FootPrint",
+    "center": { "lat": 37.7757, "lng": -122.395203 }
+  },
+  {
+    "pool_name": "WAYI.CN/BITdeer",
+    "stratum_address": "stratum+tcp://btc.easy2mine.com",
+    "ip_address": "47.95.168.69",
+    "locations": "China,Beijing",
+    "ISP": "Aliyun Computing Co. Ltd",
+    "carbon_emissions_factors": 0.982118481,
+    "Sources": "IGES GRID",
+    "center": { "lat": 39.907501, "lng": 116.397232 }
+  }
+]

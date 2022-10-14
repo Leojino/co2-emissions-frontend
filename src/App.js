@@ -2,7 +2,8 @@ import "./App.css";
 import Header from "components/header";
 import MainPanel from "components/MainPanel";
 import SidePanel from "components/SidePanel";
-import poolOne from 'data/pool_1.json';
+// import poolOne from 'data/pool_1.json';
+import poolOne from 'data/pool_2.json';
 
 function App() {
   return (
