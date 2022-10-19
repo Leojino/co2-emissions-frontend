@@ -11,7 +11,7 @@ const center = {
   lng: -79.5715815,
 };
 
-function Map({ data }) {
+function Map({ data, onMarkerClick }) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "AIzaSyB0hz1RmWYsOPfCGZKRemdXvs2E-umR_sU",
@@ -43,16 +43,14 @@ function Map({ data }) {
     setMap(null);
   }, []);
 
-  // console.log(isLoaded);
-
   return isLoaded ? (
-    <GoogleMap mapContainerStyle={containerStyle} options={{ disableDefaultUI: true }} center={center} zoom={3} onLoad={onLoad} onUnmount={onUnmount}>
+    <GoogleMap mapContainerStyle={containerStyle} clickableIcons={false} options={{ maxZoom:5, minZoom: 2, fullscreenControl: false, mapTypeControl: false, streetViewControl: false }} center={center} zoom={3} onLoad={onLoad} onUnmount={onUnmount}>
       {showMarkers &&
         data.map((datum, i) => (
           <MarkerF
             key={i}
             position={datum.center}
-            onClick={(e) => console.log(e)}
+            onClick={(e) => { onMarkerClick(e, datum) }}
             // onLoad={ (...args) => console.log(args) }
           />
         ))}

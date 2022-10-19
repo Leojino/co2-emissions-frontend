@@ -1,29 +1,39 @@
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
 export default function DataTable({data}) {
 
     return (
-        <div>
-            <table className="table-auto w-full">
-            <thead className="sticky top-0 bg-white">
-              <tr className="border-b text-left">
-                <th className="p-1">Pool Name</th>
-                <th className="p-1">IP address</th>
-                <th className="p-1">CO2 Emission</th>
-                {/* <th className="p-1">Sources</th> */}
-              </tr>
-            </thead>
-            <tbody>
+        <Paper sx={{ width: '100%', overflow: 'hidden', maxWidth: 400 }}>
+        <TableContainer sx={{maxHeight: "50vh"}}>
+            <Table stickyHeader aria-label="simple table" size="small">
+            <TableHead>
+              <TableRow>
+                <TableCell component="th">Pool Name</TableCell>
+                <TableCell component="th">IP address</TableCell>
+                <TableCell component="th">CO2</TableCell>
+                <TableCell component="th">Address</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
                 {
                     data.map( (d,index) => (
-                        <tr className="border-b last:border-0 bg-slate-100" key={index}>
-                            <td className="p-2">{d.pool_name}</td>
-                            <td className="p-2 whitespace-nowrap">{d.ip_address}</td>
-                            <td className="p-2">{d.carbon_emissions_factors.kWh}</td>
-                            {/* <td className="p-2">{d.sources}</td> */}
-                        </tr>
-                    ))
+                        <TableRow key={index}>
+                            <TableCell>{d.pool_name}</TableCell>
+                            <TableCell>{d.ip_address}</TableCell>
+                            <TableCell>{d.carbon_emissions_factors}</TableCell>
+                            <TableCell>{d.locations}</TableCell>
+                        </TableRow>
+                    )) // whitespace-nowrap
                 }
-            </tbody>
-          </table>
-        </div>
+            </TableBody>
+          </Table>
+        </TableContainer>
+        </Paper>
     )
 }

@@ -1,14 +1,22 @@
 import DataTable from "./Datatable";
+import Drawer from "@mui/material/Drawer";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
 
-export default function SidePanel({poolData}) {
-    return (
-        <div className="basis-96 border-l p-1 bg-slate-100 shadow-xl">
-          <div className="p-1 relative h-full">
-          <h3>Pools</h3>
-          <div className="border h-1/2 overflow-x-auto">
-            <DataTable data={poolData}/>
-          </div>
-          </div>
+export default function SidePanel({ poolData }) {
+  return (
+    <Drawer variant="permanent" anchor="right"sx={{
+      width: 400,
+      flexShrink: 0,
+      [`& .MuiDrawer-paper`]: { width: 400, boxSizing: 'border-box' },
+    }}>
+      <Box sx={{p:2}}>
+        <Toolbar/>
+        <h3>Pools</h3>
+        <div className="border">
+          <DataTable data={poolData} />
         </div>
-    )
+      </Box>
+    </Drawer>
+  );
 }

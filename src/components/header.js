@@ -25,7 +25,7 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed" sx={{zIndex: (theme => theme.zIndex.drawer+1)}}>
       <Container maxWidth="xl">
         <Toolbar variant="dense" disableGutters>
           <Typography
