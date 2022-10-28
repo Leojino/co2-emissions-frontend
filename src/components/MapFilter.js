@@ -2,37 +2,46 @@ import { useState } from "react";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import Grid from '@mui/material/Grid';
+// import Container from '@mui/material/Container';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 import Co2Icon from "@mui/icons-material/Co2";
 import BoltIcon from "@mui/icons-material/Bolt";
 
-export default function MapFilter({ current, onFilterChange }) {
-  const [age, setAge] = useState(10);
+import datalist from 'data/dataList';
+
+export default function MapFilter({ current, onFilterChange, onDatasetChange, currentDataset }) {
+  // const theme = useTheme();
+  // const smallScreen = useMediaQuery(theme.breakpoints.down("sm"))
+
+  // const [age, setAge] = useState("co2jan20_1-5jan.json");
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    onDatasetChange(event.target.value);
   };
   return (
-    <div className="absolute top-1 left-0 w-full z-10 p-2 flex">
-      <Grid container>
+      <Grid container sx={{ zIndex: 10}} className="bg-white p-2 pt-3 shadow">
         <Grid item xs={9}>
           <FormControl >
             <InputLabel id="date-range-select-label">Date</InputLabel>
             <Select
               labelId="date-range-select-label"
               id="date-range-select"
-              value={age}
+              value={currentDataset}
               label="Age"
               onChange={handleChange}
               size="small"
             >
-              <MenuItem value={10}>3 months ago</MenuItem>
-              <MenuItem value={20}>6 months ago</MenuItem>
-              <MenuItem value={30}>1 year ago</MenuItem>
+              {
+                datalist.map( data => (
+                  <MenuItem key={data.name} value={data.name}>{data.label}</MenuItem>
+                ) )
+              }
             </Select>
           </FormControl>
         </Grid>
@@ -43,6 +52,5 @@ export default function MapFilter({ current, onFilterChange }) {
           </ToggleButtonGroup>
         </Grid>
       </Grid>
-    </div>
   );
 }

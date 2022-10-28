@@ -22,12 +22,13 @@ function Map({ data, onMarkerClick }) {
 
   useEffect(() => {
     if (!map) return;
-    new window.google.maps.Geocoder().geocode({ address: data[0].locations }, function (results, status) {
-      if (status == "OK") {
-        //  console.log(results[0].geometry.location.lat())
-      } else {
-        alert("Geocode was not successful for the following reason: " + status);
-      }
+    new window.google.maps.Geocoder().geocode({ address: data[0].Locations }, function (results, status) {
+      console.log(results, status);
+      // if (status == "OK") {
+      //   //  console.log(results[0].geometry.location.lat())
+      // } else {
+      //   alert("Geocode was not successful for the following reason: " + status);
+      // }
     });
     setShowMarkers(true);
   }, [map]);
@@ -43,13 +44,24 @@ function Map({ data, onMarkerClick }) {
     setMap(null);
   }, []);
 
+  const getLatLong = datum => {
+    if(!datum.Lat || !datum.Long) {
+      // console.log(datum);
+      return center;
+    }
+    return {
+      lat: datum.Lat,
+      lng: datum.Long
+    }
+  }
+
   return isLoaded ? (
     <GoogleMap mapContainerStyle={containerStyle} clickableIcons={false} options={{ maxZoom:5, minZoom: 2, fullscreenControl: false, mapTypeControl: false, streetViewControl: false }} center={center} zoom={3} onLoad={onLoad} onUnmount={onUnmount}>
       {showMarkers &&
         data.map((datum, i) => (
           <MarkerF
             key={i}
-            position={datum.center}
+            position={getLatLong(datum)}
             onClick={(e) => { onMarkerClick(e, datum) }}
             // onLoad={ (...args) => console.log(args) }
           />
