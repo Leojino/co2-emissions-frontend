@@ -1,6 +1,6 @@
 const list = [
   {
-    name: "co2jan20_1-5jan.json",
+    name: "1_co2_20_1-5jan.json",
     label: "January 1st-5th",
   },
   {
@@ -24,11 +24,11 @@ const list = [
     label: "January 25th-30th",
   },
   {
-    name: "7_co2_20_31jan-4bfeb.json",
+    name: "7_co2_20_31jan-4feb.json",
     label: "January 31st - February 4th",
   },
   {
-    name: "8_co2_20_5-9bfeb.json",
+    name: "8_co2_20_5-9feb.json",
     label: "February 5th-9th",
   },
   {

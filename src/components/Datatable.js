@@ -24,10 +24,24 @@ export default function DataTable({data}) {
                 {
                     data != null && data.map( (d,index) => (
                         <TableRow key={index}>
-                            <TableCell>{d.Pools}</TableCell>
+                            <TableCell>
+                                {
+                                    d.index === "Total" ?
+                                    <span className="font-bold">Total</span>:
+                                    d.Pools
+                                }
+                            </TableCell>
                             <TableCell>{d.Locations}</TableCell>
-                            <TableCell>{d.CO2_emissions}</TableCell>
-                            <TableCell>{d.electricity_consumption_per_region}</TableCell>
+                            <TableCell>
+                                <span className={d.index === "Total" ? "font-bold" : ""}>
+                                    {d.CO2_emissions}
+                                </span>
+                            </TableCell>
+                            <TableCell>
+                                <span className={d.index === "Total" ? "font-bold" : ""}>
+                                    {d.electricity_consumption_per_region}
+                                </span>
+                            </TableCell>
                         </TableRow>
                     ))
                 }

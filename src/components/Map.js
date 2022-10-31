@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
-import { GoogleMap, useJsApiLoader, MarkerF } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader, MarkerF, HeatmapLayer } from "@react-google-maps/api";
 
 const containerStyle = {
   width: "100%",
@@ -15,6 +15,7 @@ function Map({ data, onMarkerClick }) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "AIzaSyB0hz1RmWYsOPfCGZKRemdXvs2E-umR_sU",
+    libraries: ["visualization"]
   });
 
   const [map, setMap] = useState(null);
@@ -29,8 +30,8 @@ function Map({ data, onMarkerClick }) {
       // } else {
       //   alert("Geocode was not successful for the following reason: " + status);
       // }
+      setShowMarkers(true);
     });
-    setShowMarkers(true);
   }, [map]);
 
   const onLoad = useCallback(function callback(map) {
@@ -44,28 +45,52 @@ function Map({ data, onMarkerClick }) {
     setMap(null);
   }, []);
 
-  const getLatLong = datum => {
-    if(!datum.Lat || !datum.Long) {
+  const getLatLong = (datum) => {
+    if (!datum.Lat || !datum.Long) {
       // console.log(datum);
       return center;
     }
     return {
       lat: datum.Lat,
-      lng: datum.Long
-    }
-  }
+      lng: datum.Long,
+    };
+  };
 
   return isLoaded ? (
-    <GoogleMap mapContainerStyle={containerStyle} clickableIcons={false} options={{ maxZoom:5, minZoom: 2, fullscreenControl: false, mapTypeControl: false, streetViewControl: false }} center={center} zoom={3} onLoad={onLoad} onUnmount={onUnmount}>
+    <GoogleMap
+      mapContainerStyle={containerStyle}
+      clickableIcons={false}
+      options={{ maxZoom: 5, minZoom: 2, fullscreenControl: false, mapTypeControl: false, streetViewControl: false }}
+      center={center}
+      zoom={3}
+      onLoad={onLoad}
+      onUnmount={onUnmount}
+    >
       {showMarkers &&
         data.map((datum, i) => (
           <MarkerF
             key={i}
             position={getLatLong(datum)}
-            onClick={(e) => { onMarkerClick(e, datum) }}
+            onClick={(e) => {
+              onMarkerClick(e, datum);
+            }}
             // onLoad={ (...args) => console.log(args) }
           />
         ))}
+      {showMarkers && (
+        <HeatmapLayer
+          // optional
+          onLoad={() => {}}
+          // optional
+          onUnmount={() => {}}
+          options={{
+            radius: 60,
+            maxIntensity: 10
+          }}
+          // required
+          data={data.map((datum, i) => new window.google.maps.LatLng(datum.Lat, datum.Long))}
+        />
+      )}
     </GoogleMap>
   ) : (
     <div className="absolute inset-0 bg-orange-600"></div>
