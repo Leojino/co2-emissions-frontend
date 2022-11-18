@@ -3,8 +3,6 @@ import Box from "@mui/material/Box";
 import Header from "components/header";
 import CryptoEmission from "modules/CryptoEmission";
 
-// const poolOne = data.data;
-
 function App() {
 
   return (

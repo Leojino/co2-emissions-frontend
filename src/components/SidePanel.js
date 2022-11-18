@@ -21,7 +21,7 @@ export default function SidePanel({ poolData }) {
     // }}>
     <Grid item sm={12} >
       <Box sx={{p:2}}>
-        <h3>Pools</h3>
+        {/* <h3>Pools</h3> */}
         <div className="border">
           <DataTable data={poolData} />
         </div>

@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 // import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-
+import logo from "../york-logo.jpeg";
 const pages = ["Methodology", "About"];
 
 export default function Header() {
@@ -23,13 +23,14 @@ export default function Header() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
+  
   return (
     <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar variant="dense" disableGutters>
+          <img src={logo} alt="York University" width="120" className="mr-2"/>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
             component="a"
             href="/"
@@ -40,9 +41,10 @@ export default function Header() {
               fontWeight: 700,
               color: "inherit",
               textDecoration: "none",
+              overflow: "visible"
             }}
           >
-            Crytocurrency CO2 emissions project.
+            Bitcoin CO <sub>2</sub> Emissions Project
           </Typography>
 
           <Box sx={{ display: { xs: "flex", md: "none" } }}>

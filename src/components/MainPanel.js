@@ -6,7 +6,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import Grid from "@mui/material/Grid";
 import Summary from "components/SummaryBox";
 
-export default function MainPanel({ poolData, loading, current}) {
+export default function MainPanel({ poolData, loading, settings}) {
   const [openPoolDialog, setOpenPoolDialog] = useState(false);
   const [selectedPool, setSelectedPool] = useState({});
   const [totalValue, setTotalValue] = useState({});
@@ -24,13 +24,13 @@ export default function MainPanel({ poolData, loading, current}) {
   
 
   return (
-    <Grid item xs={12} sx={{ position: "relative", height: 400 }}>
+    <Grid item xs={12} sx={{ position: "relative", height: 550 }}>
+      <Map data={poolData} onMarkerClick={handleMarkerClick} settings={settings}/>
+      <Summary current={settings.type} total={totalValue}/>
       {loading ? (
         "Please Wait..."
       ) : (
         <>
-          <Map data={poolData} onMarkerClick={handleMarkerClick} />
-          <Summary current={current} total={totalValue}/>
           <Dialog open={openPoolDialog} onClose={(e) => setOpenPoolDialog(false)}>
             <DialogTitle>{selectedPool.Pools}</DialogTitle>
             <DialogContentText>

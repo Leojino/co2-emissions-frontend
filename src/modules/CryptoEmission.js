@@ -7,13 +7,16 @@ import MapFilter from "components/MapFilter";
 
 export default function CryptoEmission() {
   const [data, setData] = useState(null);
-  const [activeType, setActiveType] = useState("carbon");
-  const [loading, setLoading] = useState(true);
-  const [currentDataset, setCurrentDataset] = useState(datalist[2].name);
+  const [filterSettings, setFilterSettings] = useState({
+    type: "electricity",
+    set: datalist[0].name,
+    markersOn: false,
+    heatmapOn: true
+  })
 
-  useEffect(() => {
-    getData();
-  }, []);
+  // const [activeType, setActiveType] = useState("carbon");
+  const [loading, setLoading] = useState(true);
+  const [currentDataset, setCurrentDataset] = useState(datalist[0].name);
 
   useEffect(() => {
     setLoading(true)
@@ -33,19 +36,27 @@ export default function CryptoEmission() {
     setLoading(false);
   };
   
-  const handleFilterChange = (e, type) => {
-    setActiveType(type);
+  const handleFilterChange = (key, value) => {
+    if(key == "set") {
+      handleDatasetChange(value);
+      return;
+    }
+    setFilterSettings( (previous) => ({
+      ...previous,
+      [key]: value
+    } ))
   };
 
   const handleDatasetChange = (name) => {
+    setData(null);
     setCurrentDataset(name);
   }
 
   return (
     <Grid container sx={{ position: "relative" }}>
-        <MapFilter current={activeType} onFilterChange={handleFilterChange} currentDataset={currentDataset} onDatasetChange={handleDatasetChange}/>
-        <MainPanel poolData={data} loading={loading} current={activeType}/>
-        <SidePanel poolData={data} loading={loading}/>
+        <MapFilter settings={filterSettings} onFilterChange={handleFilterChange} currentDataset={currentDataset}/>
+        <MainPanel poolData={data} loading={loading} settings={filterSettings}/>
+        {/* <SidePanel poolData={data} loading={loading}/> */}
     </Grid>
   );
 }
