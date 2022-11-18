@@ -32,17 +32,18 @@ export default function MapFilter({ settings, onFilterChange, currentDataset }) 
     onFilterChange("type", type);
   };
   return (
-    <Grid container sx={{ zIndex: 10 }} className="bg-white p-2 pt-3 shadow">
+    <Grid container sx={{ zIndex: 10 }} className="bg-red-600 p-2 pt-4 shadow">
       <Grid item xs={9}>
-        <FormControl>
-          <InputLabel id="date-range-select-label">Date</InputLabel>
+        {/* <FormControl> */}
+          {/* <InputLabel id="date-range-select-label">Date</InputLabel> */}
           <Select
-            labelId="date-range-select-label"
-            id="date-range-select"
+            // labelId="date-range-select-label"
+            // id="date-range-select"
             value={currentDataset}
-            label="Age"
+            // label="Age"
             onChange={handleDatasetChange}
             size="small"
+            sx={{background: "#fff"}}
           >
             {datalist.map((data) => (
               <MenuItem key={data.name} value={data.name}>
@@ -50,7 +51,7 @@ export default function MapFilter({ settings, onFilterChange, currentDataset }) 
               </MenuItem>
             ))}
           </Select>
-        </FormControl>
+        {/* </FormControl> */}
       </Grid>
       <Grid item container justifyContent="flex-end" xs={3} spacing={2}>
         <Grid item>
@@ -61,7 +62,8 @@ export default function MapFilter({ settings, onFilterChange, currentDataset }) 
               onFilterChange("markersOn", !settings.markersOn);
             }}
             size="small"
-            color="success"
+            sx={{background:() => settings.markersOn ? "#ccc" : "#fff"  }}
+            color="standard"
           >
             <RoomIcon />
           </ToggleButton>
@@ -74,13 +76,16 @@ export default function MapFilter({ settings, onFilterChange, currentDataset }) 
               onFilterChange("heatmapOn", !settings.heatmapOn);
             }}
             size="small"
-            color="success"
+            sx={{background:() => settings.heatmapOn ? "#ccc" : "#fff"  }}
+            color="standard"
           >
             <MicrowaveIcon />
           </ToggleButton>
         </Grid>
         <Grid item>
-          <ToggleButtonGroup color="success" value={settings.type} exclusive onChange={handleTypeChange} aria-label="emission" size="small">
+          <ToggleButtonGroup color="success" value={settings.type} exclusive onChange={handleTypeChange} aria-label="emission" size="small"
+            sx={{background: "#fff"}}
+          >
             <ToggleButton value="carbon">
               <Co2Icon />
             </ToggleButton>

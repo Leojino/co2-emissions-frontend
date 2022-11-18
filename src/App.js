@@ -7,9 +7,9 @@ import CryptoEmission from "modules/CryptoEmission";
 function App() {
 
   return (
-    <Box>
+    <Box sx={{ background: "#ccc"}}>
       <Header />
-      <Box sx={{ pt: 6}}>
+      <Box>
         <CryptoEmission/>
       </Box>
       <Footer/>

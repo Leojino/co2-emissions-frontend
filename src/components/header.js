@@ -25,8 +25,8 @@ export default function Header() {
   };
   
   return (
-    <AppBar position="fixed" color="inherit">
-      <Container maxWidth="xl">
+    <AppBar position="static" color="inherit">
+      <Container maxWidth="xl" className="pt-3">
         <Toolbar variant="dense" disableGutters>
           <img src={logo} alt="York University" title="York University" width="120" className="mr-2"/>
           <Typography
