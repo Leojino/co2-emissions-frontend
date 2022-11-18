@@ -9,9 +9,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 // import Tooltip from "@mui/material/Tooltip";
-import MenuItem from "@mui/material/MenuItem";
+// import MenuItem from "@mui/material/MenuItem";
 import logo from "../york-logo.jpeg";
-const pages = ["Methodology", "About"];
+// const pages = ["Methodology", "About"];
 
 export default function Header() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -25,10 +25,10 @@ export default function Header() {
   };
   
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed" color="inherit">
       <Container maxWidth="xl">
         <Toolbar variant="dense" disableGutters>
-          <img src={logo} alt="York University" width="120" className="mr-2"/>
+          <img src={logo} alt="York University" title="York University" width="120" className="mr-2"/>
           <Typography
             variant="h5"
             noWrap
@@ -38,7 +38,7 @@ export default function Header() {
               mr: 2,
               flexGrow: 1,
               display: { xs: "flex" },
-              fontWeight: 700,
+              fontWeight: 300,
               color: "inherit",
               textDecoration: "none",
               overflow: "visible"
@@ -47,7 +47,7 @@ export default function Header() {
             Bitcoin CO <sub>2</sub> Emissions Project
           </Typography>
 
-          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+          {/* <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -89,7 +89,7 @@ export default function Header() {
                 {page}
               </Button>
             ))}
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

@@ -1,6 +1,7 @@
 import "./App.css";
 import Box from "@mui/material/Box";
 import Header from "components/header";
+import Footer from "components/footer";
 import CryptoEmission from "modules/CryptoEmission";
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
   return (
     <Box>
       <Header />
-      <Box sx={{height:"100vh", pt: 6}}>
+      <Box sx={{ pt: 6}}>
         <CryptoEmission/>
       </Box>
+      <Footer/>
     </Box>
   );
 }

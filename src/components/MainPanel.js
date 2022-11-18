@@ -24,7 +24,7 @@ export default function MainPanel({ poolData, loading, settings}) {
   
 
   return (
-    <Grid item xs={12} sx={{ position: "relative", height: 550 }}>
+    <Grid item xs={12} sx={{ position: "relative"}}>
       <Map data={poolData} onMarkerClick={handleMarkerClick} settings={settings}/>
       <Summary current={settings.type} total={totalValue}/>
       {loading ? (

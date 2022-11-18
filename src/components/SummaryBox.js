@@ -11,8 +11,10 @@ export default function Summary({ current, total }) {
   }
 
   return (
-    <div className="absolute z-10 bottom-2 left-4">
-      <Card className="min-w-96 p-2 m-auto" elevation={8}>
+    <div className="p-2 mb-5">
+      <div className='font-semibold'>Summary</div>
+      <div className="flex justify-start">
+      <Card className="mx-2 p-2 m-auto" elevation={8}>
         {/* Perhaps 1 and 2 are visible when CO2 emissions are toggled on the map 
         and 3 and 4 are visible when electricity usage is toggled on the map. */}
         {current == "carbon" ? (
@@ -29,6 +31,15 @@ export default function Summary({ current, total }) {
           </>
         )}
       </Card>
+      <Card className="mx-2 p-2 m-auto" elevation={8}>
+        <span className="font-semibold text-stone-600">Unknown Pool:</span>
+        <span className='mx-3 text-base text-orange-700'></span>
+      </Card>
+      <Card className="mx-2 p-2 m-auto" elevation={8}>
+        <span className="font-semibold text-stone-600">Estimated Cloudflare Server Emissions:</span>
+        <span className='mx-3 text-base text-orange-700'></span>
+      </Card>
+      </div>
     </div>
   );
 }
