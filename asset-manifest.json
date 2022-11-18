@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/co2-emissions-frontend/static/css/main.695d42c1.css",
-    "main.js": "/co2-emissions-frontend/static/js/main.f54500e9.js",
+    "main.css": "/co2-emissions-frontend/static/css/main.ab35be71.css",
+    "main.js": "/co2-emissions-frontend/static/js/main.1ccf86b3.js",
     "static/js/787.fe41af90.chunk.js": "/co2-emissions-frontend/static/js/787.fe41af90.chunk.js",
     "static/media/york-logo.jpeg": "/co2-emissions-frontend/static/media/york-logo.3de975bf3aa1d1c66679.jpeg",
     "static/media/roboto-all-500-normal.woff": "/co2-emissions-frontend/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
@@ -37,12 +37,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/co2-emissions-frontend/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/co2-emissions-frontend/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/co2-emissions-frontend/index.html",
-    "main.695d42c1.css.map": "/co2-emissions-frontend/static/css/main.695d42c1.css.map",
-    "main.f54500e9.js.map": "/co2-emissions-frontend/static/js/main.f54500e9.js.map",
+    "main.ab35be71.css.map": "/co2-emissions-frontend/static/css/main.ab35be71.css.map",
+    "main.1ccf86b3.js.map": "/co2-emissions-frontend/static/js/main.1ccf86b3.js.map",
     "787.fe41af90.chunk.js.map": "/co2-emissions-frontend/static/js/787.fe41af90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.695d42c1.css",
-    "static/js/main.f54500e9.js"
+    "static/css/main.ab35be71.css",
+    "static/js/main.1ccf86b3.js"
   ]
 }
