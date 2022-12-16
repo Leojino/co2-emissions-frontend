@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .Mui-selected {
+    background-color: theme(colors.red.700) !important;
+} */

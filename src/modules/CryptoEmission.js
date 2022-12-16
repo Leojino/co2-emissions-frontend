@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import datalist from "data/dataList";
 import MainPanel from "components/MainPanel";
-import SidePanel from "components/SidePanel";
+// import SidePanel from "components/SidePanel";
 import MapFilter from "components/MapFilter";
+import Summary from "components/SummaryBox";
 
 export default function CryptoEmission() {
   const [data, setData] = useState(null);
@@ -17,6 +18,7 @@ export default function CryptoEmission() {
   // const [activeType, setActiveType] = useState("carbon");
   const [loading, setLoading] = useState(true);
   const [currentDataset, setCurrentDataset] = useState(datalist[0].name);
+  const [totalValue, setTotalValue] = useState({});
 
   useEffect(() => {
     setLoading(true)
@@ -33,6 +35,8 @@ export default function CryptoEmission() {
     const response = await fetch(`data/${currentDataset}`, fetchOptions);
     const fetchData = await response.json();
     setData(fetchData.data);
+    const total = fetchData.data.find( d => d.index === "Total" );
+    setTotalValue(total);
     setLoading(false);
   };
   
@@ -53,10 +57,10 @@ export default function CryptoEmission() {
   }
 
   return (
-    <Grid container sx={{ position: "relative" }}>
+    <Grid container sx={{ position: "relative"}}>
         <MapFilter settings={filterSettings} onFilterChange={handleFilterChange} currentDataset={currentDataset}/>
         <MainPanel poolData={data} loading={loading} settings={filterSettings}/>
-        {/* <SidePanel poolData={data} loading={loading}/> */}
+        <Summary current={filterSettings.type} total={totalValue}/>
     </Grid>
   );
 }
