@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Home from 'pages/home';
+import Methodology from 'pages/Methodology';
+import About from 'pages/About';
 import reportWebVitals from './reportWebVitals';
 
 import '@fontsource/roboto/300.css';
@@ -9,10 +13,32 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <div>Invalid URL</div>,
+    children: [
+      {
+        path: "",
+        element: <Home/>
+      },
+      {
+        path: "methodology",
+        element: <Methodology/>
+      },
+      {
+        path: "about",
+        element: <About/>
+      }
+    ]
+  },
+]);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

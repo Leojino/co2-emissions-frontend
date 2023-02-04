@@ -6,6 +6,8 @@ import MainPanel from "components/MainPanel";
 import MapFilter from "components/MapFilter";
 import Summary from "components/SummaryBox";
 
+const BASE_API_URL = "https://co2project.fly.dev/calculator/co2_and_electricity_date_range/?start=2023-01-01&end=2023-01-01&format=json"
+
 export default function CryptoEmission() {
   const [data, setData] = useState(null);
   const [filterSettings, setFilterSettings] = useState({
